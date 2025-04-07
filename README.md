@@ -67,7 +67,7 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 #### RegisterNumber: 212223230098
 ```
 //expt4a-full adder
-module fa1_df(sum, cout, a, b, cin);
+module ex4a(sum, cout, a, b, cin);
     output sum;
     output cout;
     input a;
@@ -84,7 +84,7 @@ endmodule
 
 
 //exp-4b-full subtractor
-module fullsub(df, bo, a, b, bin);
+module ex4b(df, bo, a, b, bin);
     output df;
     output bo;
     input a;
